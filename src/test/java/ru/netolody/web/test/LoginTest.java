@@ -1,6 +1,5 @@
 package ru.netolody.web.test;
 
-import lombok.var;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

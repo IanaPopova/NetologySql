@@ -50,7 +50,6 @@ public class LoginTest {
         var verificationPage = loginPage.validLogin(loginData);
         var verificationCode = DataHelper.generateVerCode();
         verificationPage.verify(verificationCode.getCode());
-        verificationPage.verifyErrorNotif("Ошибка! Неверно указан код! Попробуйте еще раз.");
+        verificationPage.verifyErrorNotif("Ошибка! Неверно указан код! Попробуйте ещё раз.");
     }
-
 }

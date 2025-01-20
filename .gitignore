@@ -48,3 +48,9 @@ out/
 data/
 .idea/
 netologysql/
+build.gradle
+gradlew
+gradlew.bat
+settings.gradle
+.idea/
+gradle/wrapper/
